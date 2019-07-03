@@ -1,0 +1,175 @@
+/* Configuración General */
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: white;
+    margin-top: -27px;
+  }
+  
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  article, aside, footer {
+    background-color: whitesmoke;
+    padding: 2%;
+  }
+  
+  /* Tipogragía */
+  
+  h1, h2, h3 {
+    font-family: 'Roboto',sans-serif;
+    color: #2a2a2a;
+    text-transform: uppercase;
+  }
+  
+  p, input, li {
+    font-family: 'Roboto', sans-serif;
+    color: #2a2a2a;
+    
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 10px black;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+  }
+  
+  p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  
+  /* Diseño para el HEADER */
+  header{ 
+    /* Gradiente para el HEADER */
+    background: #a73737;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+  }
+  
+ 
+  
+  nav {
+    height: 50px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+    padding: 0 auto;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+  }
+  header nav ul li a {
+    color: #FFBEB8;
+    text-shadow: 2px 2px 10px black;
+  }
+  
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+  
+  input {
+    font-size: 1.6rem;
+    height: 32px;
+  }
+  
+  input[type="search"] {
+    flex: 3;
+    padding: a auto;
+  }
+  
+  input[type="submit"] {
+    flex: 1;
+    margin-left: 1rem;
+    background: #333;
+    border: 0;
+    color: white;
+    padding: a auto;
+  }
+  
+  /* Diseño de main */
+  
+  main {
+    display: flex;
+    
+  }
+  
+  article {
+    flex: 4;
+    border-style: groove;
+    border-radius: 10px;
+    margin: 0 15px;
+  }
+  
+  aside {
+    flex: 1;
+    background-color:whitesmoke;
+    border-style: groove;
+    border-radius: 10px;
+    margin: 0 15px;
+    padding: 5px;
+  }
+  
+  aside li {
+    padding-bottom: 10px;
+  }
+  /* Aside */
+  body a{
+    text-decoration: none;
+    color: black;
+    
+    }
+    body main aside ul{
+      list-style-type: none;
+      
+    }
+
+    /* Diseño del FOOTER*/
+  footer {
+    margin-top: 15px;
+    background-color: #805F5C;
+    color: #FFE8D6;
+  }
+  footer p{
+    color: #FFE8D6;
+  }
