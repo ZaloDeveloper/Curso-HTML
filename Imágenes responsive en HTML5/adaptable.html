@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html {
+            font-family: sans-serif;
+            background-color: gray;
+        }
+
+        body {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        header {
+            background: url(/img/padre-e-hija-1200.png) no-repeat center;
+            height: 450px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+            <h1>Imágenes adaptables</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget venenatis ligula. Ut lacinia at
+                dolor vitae pulvinar. Aliquam pretium dignissim eros. Integer faucibus, dui non aliquet bibendum, lectus
+                orci lobortis odio, ornare porttitor est tellus eget velit. Nulla eros elit, malesuada id neque vel,
+                viverra vehicula neque. Nullam auctor turpis non leo iaculis finibus. Quisque blandit arcu venenatis
+                libero tempor, ac pulvinar ligula dapibus.</p>
+
+            <picture>
+                <source media="(max-width: 799px)" srcset="img/india-480.png">
+                <source media="(min-width: 800px)" srcset="img/india-800.png">
+
+                <img src="img/india-800.png" alt="Mujeres de la india">
+            </picture>
+
+            <p>Suspendisse potenti. Ut in luctus eros. Mauris pulvinar vehicula aliquet. Etiam imperdiet eleifend
+                luctus. Duis ut justo nec eros ornare consectetur. Vestibulum convallis condimentum varius. Maecenas
+                rutrum porta varius. Phasellus volutpat sem id sagittis luctus. Morbi vitae quam vitae nisi iaculis
+                dignissim.</p>
+
+            <img srcset="img/gatito-320.png 320w,
+                         img/tecito-480.png 480w,
+                         img/barco-800.png 800w" 
+                    sizes="(max-width: 320px) 280px,
+                           (max-width: 480px) 440px,
+                           800px" src="/img/barco-800.png" alt="Imagenes en diferentes resoluciones">
+
+            <p>Copyright 2019 © ZaloDeveloper <a href="https://bit.ly/2F54GiD">YouTube</a>.</p>
+        </section>
+    </main>
+</body>
+
+</html>
